@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <h1 class="titulo">SISTEMA DE RESERVAS</h1>
+    <hr />
+
+    <h1 class="titulo">REGISTRO DE USUARIO</h1>
+
+    <div id="contenedor_registro">
+      <form action="#">
+        <label for="nombre">Nombre y apellidos</label>
+        <br>
+        <input type="text" name="nombre" id="nombre" required />
+        <br /> <br>
+        <label for="correo">Correo electrónico</label>
+        <br>
+        <input type="text" name="correo" id="correo" required />
+        <br /> <br>
+        <label for="telefono">Telefono</label>
+        <br>
+        <input type="text" name="telefono" id="telefono" required />
+        <br />
+        <br />
+        <input type="submit" class="botones" value="Registrar" id="registrar" />
+        <div id="respuesta"></div>
+        <br />
+        <a href="index.html">
+          <input type="button" value="Regresar" />
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
